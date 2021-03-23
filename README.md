@@ -35,3 +35,7 @@ For example, you need to input the following command in the prompt to execute th
 ## License
 This software may be used only for research evaluation purposes.
 For other purposes (e.g., commercial), please contact the authors.
+The authors are as follows:
+- Bonhun Koo (<darkgs@snu.ac.kr>)
+- Hyunsik Jeon (<jeon185@snu.ac.kr>)
+- U Kang (<ukang@snu.ac.kr>) - corresponding author
