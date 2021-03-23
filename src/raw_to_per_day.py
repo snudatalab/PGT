@@ -178,7 +178,7 @@ def main():
         return
 
     if dataset == 'adressa':
-        data_path = 'data/' + data_mode
+        data_path = 'data/adressa' + data_mode
         worker_fn = raw_to_per_day
     elif dataset == 'glob':
         data_path = 'data/glob'

@@ -12,12 +12,20 @@ You need to install the related python packages using the following command.
 ## Project Structure
 You can find the sub-directory structure of the project in this section.
 The raw dataset files are not included in this repogitory because of the license issue.
-Please softlink the "warhol4.snu.ac.kr:/data/bonhun/Dataset" to 'data/' before executing the preprocessing.
 
 - `Makefile`: All procedures of project are executed by the dependency tree in the Makefile.
 - `src/`: the path of directory for the source codes.
 - `data/`: the path of raw dataset files.
-- `cache/`: the path of directory storing intermediate output files of the data preprocessing.
+- `cache/`: the path of directory storing intermediate output files of the data preprocessing. the content of the cache will be generated automatically during the execution
+
+Please download datasets to data/ folder of the project.
+The content of data should be like the bellow.
+- Adressa
+data/adressa/one_week/20170101 ... 20170107
+data/adressa/three_month/20170101 ... 20170331
+- Globo
+data/globo/clicks: 'clicks' of globo dataset
+data/globo/articles_metadata.csv: 'articles_metadata.csv' of globo dataset
 
 ## How to execute
 All codes should be executed by the Makefile
