@@ -20,14 +20,14 @@ The raw dataset files are not included in this repogitory because of the license
 
 Please download datasets to data/ folder of the project.
 The content of data should be like the bellow.
-- Adressa
-Download url: http://reclab.idi.ntnu.no/dataset
-data/adressa/one_week/20170101 ... 20170107
-data/adressa/three_month/20170101 ... 20170331
-- Globo
-Download url: https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom
-data/globo/clicks: 'clicks' of globo dataset
-data/globo/articles_metadata.csv: 'articles_metadata.csv' of globo dataset
+#### Adressa
+- Download url: http://reclab.idi.ntnu.no/dataset
+- data/adressa/one_week/20170101 ... 20170107
+- data/adressa/three_month/20170101 ... 20170331
+#### Globo
+- Download url: https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom
+- data/globo/clicks: 'clicks' of globo dataset
+- data/globo/articles_metadata.csv: 'articles_metadata.csv' of globo dataset
 
 ## How to execute
 All codes should be executed by the Makefile
