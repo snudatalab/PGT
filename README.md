@@ -15,19 +15,17 @@ The raw dataset files are not included in this repogitory because of the license
 
 - `Makefile`: All procedures of project are executed by the dependency tree in the Makefile.
 - `src/`: the path of directory for the source codes.
-- `data/`: the path of raw dataset files.
-- `cache/`: the path of directory storing intermediate output files of the data preprocessing. the content of the cache will be generated automatically during the execution
+- `data/`: the path of raw dataset files (download links are listed below).
+- `cache/`: the path of directory storing intermediate output files of the data preprocessing (this will be generated automatically during the execution).
 
-Please download datasets to data/ folder of the project.
-The content of data should be like the bellow.
-#### Adressa
-- Download url: http://reclab.idi.ntnu.no/dataset
+Please download the following datasets and put them to data/[dataset_name] folder of the project.
+The paths of the datasets should be:
+#### Adressa (http://reclab.idi.ntnu.no/dataset)
 - data/adressa/one_week/20170101 ... 20170107
 - data/adressa/three_month/20170101 ... 20170331
-#### Globo
-- Download url: https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom
-- data/globo/clicks: 'clicks' of globo dataset
-- data/globo/articles_metadata.csv: 'articles_metadata.csv' of globo dataset
+#### Globo (https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom)
+- data/globo/clicks
+- data/globo/articles_metadata.csv
 
 ## How to execute
 All codes should be executed by the Makefile
