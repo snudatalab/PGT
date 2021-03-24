@@ -16,7 +16,7 @@ The raw dataset files are not included in this repogitory because of the license
 - `Makefile`: All procedures of project are executed by the dependency tree in the Makefile.
 - `src/`: the path of directory for the source codes.
 - `data/`: the path of raw dataset files (download links are listed below).
-- `cache/`: the path of directory storing intermediate output files of the data preprocessing (this will be generated automatically during the execution).
+- `cache/`: the path of directory storing intermediate output files of the data preprocessing (this will be generated automatically during execution).
 
 Please download the following datasets and put them to data/[dataset_name] folder of the project.
 The paths of the datasets should be:
