@@ -39,3 +39,16 @@ The authors are as follows:
 - Bonhun Koo (<darkgs@snu.ac.kr>)
 - Hyunsik Jeon (<jeon185@snu.ac.kr>)
 - U Kang (<ukang@snu.ac.kr>) - corresponding author
+
+## Reference
+If you use this code, please cite the following paper.
+```
+@inproceedings{koo2020accurate,
+  title={Accurate news recommendation coalescing personal and global temporal preferences},
+  author={Koo, Bonhun and Jeon, Hyunsik and Kang, U},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={78--90},
+  year={2020},
+  organization={Springer}
+}
+```
